@@ -1,1 +1,7 @@
-BA05-D5D9dada
+FROM python:latest
+
+COPY 016045276_Manidedeepya_Chennapragada_hw4.ipynb /
+
+
+
+CMD [ "python", "./016045276_Manidedeepya_Chennapragada_hw4.ipynb" ]
